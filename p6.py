@@ -16,7 +16,7 @@ while tuple(banks) not in seen:
     i = (i+1)%(len(banks))
 print(acc1)
 
-#part 2
+#part 2 (could have been only "print len(seen) - seen.index(tuple(banks))" =( )
 already_seen=tuple(banks)
 new = []
 acc2 = 0
