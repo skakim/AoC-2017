@@ -102,6 +102,4 @@ while(not(p0.waiting and p1.waiting)):
     p0.queue.append(op)
     counter += 1
   i += 1
-  if i % 100000 == 0:
-    print(p0.pc, p1.pc, counter)
 print(counter)
