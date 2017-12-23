@@ -79,4 +79,4 @@ while(first_time or g!=0):
     h += 1
   g = b-c #therefore, it is "while b != c"
   b += 17 #difference = 17000, then 1000 iterations
-print(h) #h = how much prime numbers are in range(106700,123717,17)
+print(h) #h = how much NOT prime numbers are in range(106700,123717,17)
